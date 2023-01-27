@@ -24,64 +24,63 @@
     />
   </head>
   <body>
+    <!-- NavBar -->
+    <nav class="nav-bar">
+      <picture class="nav-bar-left">
+        <img src="./public/Vitejs-logo.svg.png" alt="" />
+        <span>Vite</span>
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" name="" id="" placeholder="Search" />
+          <span>CtrlK</span>
+        </div>
+      </picture>
+      <ul class="nav-bar-right">
+        <li><a href="#">Guide</a></li>
+        <li><a href="#">Config</a></li>
+        <li><a href="#">Plugins</a></li>
+        <li>
+          <a href="#">Resources <i class="fa-solid fa-angle-down"></i></a>
+        </li>
+        <li>
+          <a href="#">Version <i class="fa-solid fa-angle-down"></i></a>
+        </li>
+        <li class="container-language">
+          <a href="#"></a
+          ><i class="fa-sharp fa-solid fa-language"
+            ><span class="language"></span
+          ></i>
+        </li>
+        <li class="container-dark">
+          <a href="#"></a><i class="fa-solid fa-moon"></i>
+        </li>
+        <ul class="social">
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </li>
+        </ul>
+      </ul>
+
+      <div class="nav-bar-movil">
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        <span><i class="fa-solid fa-bars bar"></i></span>
+      </div>
+    </nav>
+    <div class="border"></div>
     <div class="container">
-      <!-- NavBar -->
-      <nav class="nav-bar">
-        <picture class="nav-bar-left">
-          <img src="./public/Vitejs-logo.svg.png" alt="" />
-          <span>Vite</span>
-          <div class="search">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" name="" id="" placeholder="search" />
-            <span>CtrlK</span>
-          </div>
-        </picture>
-
-        <div class="nav-right-container">
-          <ul class="nav-bar-right enable">
-            <li><a href="#">Guide</a></li>
-            <li><a href="#">Config</a></li>
-            <li><a href="#">Plugins</a></li>
-            <li>
-              <a href="#">Resources <i class="fa-solid fa-angle-down"></i></a>
-            </li>
-            <li>
-              <a href="#">Version <i class="fa-solid fa-angle-down"></i></a>
-            </li>
-            <li class="container-language">
-              <a href="#"></a
-              ><i class="fa-sharp fa-solid fa-language"
-                ><span class="language"></span
-              ></i>
-            </li>
-            <li><a href="#"></a><i class="fa-solid fa-moon"></i></li>
-            <div class="social">
-              <li>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa-brands fa-discord"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-              </li>
-            </div>
-          </ul>
-        </div>
-
-        <div class="nav-bar-movil">
-          <span><i class="fa-solid fa-magnifying-glass"></i></span>
-          <span><i class="fa-solid fa-bars"></i></span>
-        </div>
-      </nav>
-      <div class="border"></div>
       <!-- Header -->
       <header class="header">
         <picture>
           <img src="./public/logo-with-shadow.png" alt="" />
         </picture>
-        <span>Vite</span>
         <div class="container-header">
+          <span>Vite</span>
           <h1>Next Generation</h1>
           <h1>Frontend Tooling</h1>
           <p>
@@ -224,5 +223,6 @@
 
       <!-- End Div Container -->
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
